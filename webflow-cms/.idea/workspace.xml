@@ -10,13 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31806231-703c-49fc-bce5-0ab96c1c4657" name="Default Changelist" comment="">
+    <list default="true" id="31806231-703c-49fc-bce5-0ab96c1c4657" name="Default Changelist" comment="first-commit">
       <change afterPath="$PROJECT_DIR$/../.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\among\WebstormProjects\webflow-cms\webflow-cms\src" />
+      <recent name="C:\Users\among\WebstormProjects\webflow-cms\webflow-cms\bin" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,8 +56,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658913378708</updated>
-      <workItem from="1658913379744" duration="98000" />
+      <workItem from="1658913379744" duration="1985000" />
     </task>
+    <task id="LOCAL-00001" summary="first-commit">
+      <created>1658913588633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658913588633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,11 +82,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first-commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="826" y="419" key="Github.ShareDialog" timestamp="1658913414248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1658913414248" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1658913590075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1658913590075" />
     <state x="760" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1658913405057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
