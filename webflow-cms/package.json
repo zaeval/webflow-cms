@@ -1,0 +1,24 @@
+{
+  "name": "webflow-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webflow",
+    "cms"
+  ],
+  "author": "zaeval",
+  "license": "ISC",
+  "dependencies": {
+    "webflow-api": "^0.8.0"
+  },
+  "type": "module"
+}
