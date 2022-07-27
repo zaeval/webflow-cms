@@ -1,6 +1,6 @@
-import Webflow from "webflow-api";
+const Webflow = require("webflow-api");
 
-export default class WebflowCMS{
+module.exports = class WebflowCMS{
     constructor(token) {
         this.webflow = new Webflow({
             token:token
