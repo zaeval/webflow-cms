@@ -1,20 +1,22 @@
 {
   "name": "webflow-cms",
-  "version": "1.1.2",
+  "version": "1.2.5",
   "description": "easy way to use webflow api",
   "scripts": {
-    "prepublish": "babel src --out-dir lib"
+    "prepublish": "npx babel --out-file-extension .mjs src/ > dist/index.mjs ",
+    "build": "babel src --out-dir dist"
+
   },
   "babel": {
     "presets": [
       "es2015"
     ]
   },
-  "main": "lib/index.cjs",
+  "main": "dist/index.js",
   "bin": {},
   "files": [
-    "lib",
-    "esm"
+    "esm",
+    "dist"
   ],
   "keywords": [
     "webflow",
@@ -25,14 +27,14 @@
   "dependencies": {
     "webflow-api": "^0.8.0"
   },
-  "type": "module",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1"
   },
   "exports": {
-    "require": "./lib/index.cjs",
+    "require": "./dist/index.js",
     "import": "./esm/wrapper.js"
-  }
+  },
+  "type": "commonjs"
 }

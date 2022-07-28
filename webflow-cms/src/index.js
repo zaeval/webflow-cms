@@ -1,6 +1,7 @@
 const Webflow = require("webflow-api");
+const fetch = require('node-fetch');
 
-module.exports = class WebflowCMS{
+export default class WebflowCMS{
     constructor(token) {
         this.webflow = new Webflow({
             token:token
@@ -19,7 +20,7 @@ module.exports = class WebflowCMS{
     async getItems(collection){
         return (await collection.items()).items;
     }
-    async getItemsByName (collection,name){
+    async getItemByName (collection,name){
         return (await collection.items()).items.find((item)=>{return item.name == name})
     }
     async updateItem(itemId,collectionId, data){
@@ -36,4 +37,6 @@ module.exports = class WebflowCMS{
         },{live:true})
     }
 }
-// window.WebflowCMS = WebflowCMS;
+if(window !== undefined){
+    window.WebflowCMS = WebflowCMS;
+}

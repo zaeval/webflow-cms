@@ -1,2 +1,2 @@
-import WebflowCMS from '../src/index.js';
+import WebflowCMS from '../dist/index.mjs';
 export const WebflowCMS = WebflowCMS;
