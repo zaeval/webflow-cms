@@ -24,19 +24,16 @@ export default class WebflowCMS{
         return (await collection.items()).items.find((item)=>{return item.name == name})
     }
     async updateItem(itemId,collectionId, data){
-        console.log(await this.webflow.updateItem({
+        return await this.webflow.updateItem({
             itemId: itemId,
             collectionId: collectionId,
             fields: data
-        },{live:true}));
+        },{live:true});
     }
     async createItem(collectionId,data){
-        await this.webflow.createItem({
+        return await this.webflow.createItem({
             collectionId:collectionId,
             fields:data
         },{live:true})
     }
-}
-if(window !== undefined){
-    window.WebflowCMS = WebflowCMS;
 }

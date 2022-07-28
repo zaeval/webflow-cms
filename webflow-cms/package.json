@@ -1,6 +1,6 @@
 {
   "name": "webflow-cms",
-  "version": "1.2.5",
+  "version": "1.2.7",
   "description": "easy way to use webflow api",
   "scripts": {
     "prepublish": "npx babel --out-file-extension .mjs src/ > dist/index.mjs ",

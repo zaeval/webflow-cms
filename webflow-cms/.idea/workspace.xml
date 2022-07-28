@@ -12,9 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31806231-703c-49fc-bce5-0ab96c1c4657" name="Default Changelist" comment="webflow-cms 끝">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esm/wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/esm/wrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -83,9 +81,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.test.js" />
       <item itemvalue="npm.prepublish" />
       <item itemvalue="npm.build" />
-      <item itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
       <list>

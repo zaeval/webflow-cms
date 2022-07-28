@@ -53,16 +53,16 @@ var WebflowCMS = function () {
     }, {
         key: "updateItem",
         value: async function updateItem(itemId, collectionId, data) {
-            console.log((await this.webflow.updateItem({
+            return await this.webflow.updateItem({
                 itemId: itemId,
                 collectionId: collectionId,
                 fields: data
-            }, { live: true })));
+            }, { live: true });
         }
     }, {
         key: "createItem",
         value: async function createItem(collectionId, data) {
-            await this.webflow.createItem({
+            return await this.webflow.createItem({
                 collectionId: collectionId,
                 fields: data
             }, { live: true });
@@ -73,7 +73,3 @@ var WebflowCMS = function () {
 }();
 
 exports.default = WebflowCMS;
-
-if (window !== undefined) {
-    window.WebflowCMS = WebflowCMS;
-}
